@@ -1,0 +1,34 @@
+﻿[
+  {
+    "osoba": "Cameron Crowe",
+    "rezyseria/scenariusz": [
+      "Jerry Maguire",
+      "Jerry Maguire",
+      "Jerry Maguire"
+    ]
+  },
+  {
+    "osoba": "Lilly Wachowski",
+    "rezyseria/scenariusz": [
+      "Speed Racer",
+      "Speed Racer",
+      "Speed Racer"
+    ]
+  },
+  {
+    "osoba": "Lana Wachowski",
+    "rezyseria/scenariusz": [
+      "Speed Racer",
+      "Speed Racer",
+      "Speed Racer"
+    ]
+  },
+  {
+    "osoba": "Nancy Meyers",
+    "rezyseria/scenariusz": [
+      "Something's Gotta Give",
+      "Something's Gotta Give",
+      "Something's Gotta Give"
+    ]
+  }
+]
