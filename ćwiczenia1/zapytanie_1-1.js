@@ -1,0 +1,1 @@
+printjson(db.nbd_col.find().limit(1).toArray())
