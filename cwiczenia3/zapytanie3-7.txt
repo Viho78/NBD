@@ -1,0 +1,2 @@
+MATCH (p:Person)-[:DIRECTED]->(m:Movie)<-[:WROTE]-(p:Person)
+RETURN p.name as osoba, collect(m.title) AS `rezyseria/scenariusz`

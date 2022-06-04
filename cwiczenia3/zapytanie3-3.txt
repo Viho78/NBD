@@ -1,0 +1,2 @@
+MATCH (tom:Person {name:"Hugo Weaving"})-[:ACTED_IN]->(m)<-[:DIRECTED]-(dir)
+RETURN dir

@@ -1,0 +1,4 @@
+MATCH (p:Person)-[:ACTED_IN]->(m:Movie)
+RETURN p.name as aktor, count(m.title) AS `ilosc filmow`
+
+

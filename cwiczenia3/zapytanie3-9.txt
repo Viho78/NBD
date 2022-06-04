@@ -1,0 +1,31 @@
+CREATE (CaptainAmerica:Movie {title:'Captain America: The First Avenger', released:2011, tagline:'When patriots become heroes'})
+
+CREATE (Chris:Person {name:'Chris Evans', born:1981})
+CREATE (Samuel:Person {name:'Samuel L. Jackson', born:1948})
+CREATE (JoeJoh:Person {name:'Joe Johnston', born:1950})
+CREATE (ChrisMar:Person {name:'Christopher Markus', born:1970})
+CREATE (StephMc:Person {name:'Stephen McFeely', born:1970})
+
+CREATE (Chris)-[:ACTED_IN {roles:['Capitan America']}]->(CaptainAmerica),
+(Hugo)-[:ACTED_IN {roles:['Johann Schmidt']}]->(CaptainAmerica),
+(Samuel)-[:ACTED_IN {roles:['Nick Fury']}]->(CaptainAmerica),
+(JoeJoh)-[:DIRECTED]->(CaptainAmerica),
+(ChrisMar)-[:WROTE]->(CaptainAmerica),
+(StephMc)-[:WROTE]->(CaptainAmerica)
+
+
+
+
+———————————————————
+
+MATCH (a1:Person)-[:ACTED_IN]->(m:Movie),
+(a2:Person)-[:DIRECTED]->(m:Movie),
+(a3:Person)-[:WROTE]->(m:Movie)
+WHERE m.title = 'Captain America: The First Avenger'
+RETURN m, a1, a2, a3
+
+
+
+
+
+
