@@ -1,0 +1,6 @@
+MATCH (n:Airport)<-[o:ORIGIN]-()
+WITH n, count(o) as suma, collect(o) as rela
+RETURN n, suma
+order by suma desc
+
+

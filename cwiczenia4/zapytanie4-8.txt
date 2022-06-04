@@ -1,0 +1,4 @@
+MATCH d = (:Airport {name:'LAX'} )<-[:ORIGIN]-(:Flight)-[:ORIGIN|DESTINATION*]->(:Airport{name: 'DAY'})
+WITH d, REDUCE(h = 0, x IN [y IN NODES(d) WHERE 'Flight' IN LABELS(y)] | h + [(x)<-[:ASSIGN]-(ticket) |ticket.price][0]) as cena
+RETURN d, cena ORDER BY cena desc LIMIT 1
+

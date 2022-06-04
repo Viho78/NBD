@@ -1,0 +1,4 @@
+MATCH p=(j{name:'Darjeeling'})-[:twowheeler]->(k)
+where all(x in relationships(p) where x.summer='true')
+return k
+

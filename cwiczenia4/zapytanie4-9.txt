@@ -1,0 +1,4 @@
+MATCH x = (f:Flight)-[:DESTINATION|ORIGIN]->(ap:Airport)
+WITH f.airline as linia , count(distinct(ap)) as licznik
+RETURN linia, licznik order by licznik desc
+

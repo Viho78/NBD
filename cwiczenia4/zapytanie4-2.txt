@@ -1,0 +1,4 @@
+MATCH p=ShortestPath((j{name:'Darjeeling'})-[*]->(k{name:'Sandakphu'}))
+where all(x in relationships(p) where x.winter='true')
+return p
+

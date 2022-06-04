@@ -1,0 +1,5 @@
+MATCH (z:Airport), (przez:Airport), (do:Airport)
+MATCH d=(z)<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(przez)<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(do)
+WITH d, REDUCE(b = 0, x IN [y IN NODES(d) WHERE 'Flight' IN LABELS(y)] |  b +[(x)<-[:ASSIGN]-(ticket) |ticket.price][0]) as cena
+WHERE NOT(z=do)
+RETURN d, cena ORDER BY cena asc LIMIT 1

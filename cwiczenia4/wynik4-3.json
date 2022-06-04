@@ -1,0 +1,470 @@
+﻿[
+  {
+    "p": {
+"start": {
+"identity": 521,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 523,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"altitude": "12400 ft",
+"name": "Sandakphu"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 521,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 777,
+"start": 521,
+"end": 526,
+"type": "road",
+"properties": {
+"distance": 10,
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 526,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 526,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 780,
+"start": 526,
+"end": 527,
+"type": "twowheeler",
+"properties": {
+"distance": 8,
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 527,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 527,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 784,
+"start": 527,
+"end": 522,
+"type": "twowheeler",
+"properties": {
+"distance": 10,
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 522,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 522,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 769,
+"start": 522,
+"end": 523,
+"type": "trek",
+"properties": {
+"distance": 4,
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 523,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"altitude": "12400 ft",
+"name": "Sandakphu"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "mindist": 32
+  },
+  {
+    "p": {
+"start": {
+"identity": 521,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 523,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"altitude": "12400 ft",
+"name": "Sandakphu"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 521,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 777,
+"start": 521,
+"end": 526,
+"type": "road",
+"properties": {
+"distance": 10,
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 526,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 526,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 780,
+"start": 526,
+"end": 527,
+"type": "twowheeler",
+"properties": {
+"distance": 8,
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 527,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 527,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 782,
+"start": 527,
+"end": 522,
+"type": "trek",
+"properties": {
+"distance": 10,
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 522,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 522,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 769,
+"start": 522,
+"end": 523,
+"type": "trek",
+"properties": {
+"distance": 4,
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 523,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"altitude": "12400 ft",
+"name": "Sandakphu"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "mindist": 32
+  },
+  {
+    "p": {
+"start": {
+"identity": 521,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 523,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"altitude": "12400 ft",
+"name": "Sandakphu"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 521,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 777,
+"start": 521,
+"end": 526,
+"type": "road",
+"properties": {
+"distance": 10,
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 526,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 526,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 780,
+"start": 526,
+"end": 527,
+"type": "twowheeler",
+"properties": {
+"distance": 8,
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 527,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 527,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 783,
+"start": 527,
+"end": 522,
+"type": "road",
+"properties": {
+"distance": 10,
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 522,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 522,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 769,
+"start": 522,
+"end": 523,
+"type": "trek",
+"properties": {
+"distance": 4,
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 523,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"altitude": "12400 ft",
+"name": "Sandakphu"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "mindist": 32
+  }
+]

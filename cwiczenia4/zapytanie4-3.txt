@@ -1,0 +1,6 @@
+MATCH p=(j{name:'Darjeeling'})-[*]->(k{name:'Sandakphu'})
+with p, reduce(dist=0, n in relationships(p) | dist + n.distance) as distance
+return p, distance as mindist
+order by mindist
+limit 3
+
