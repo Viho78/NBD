@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8YckstyS3WUCFEjnzWBl+v+S7w5cFAA==
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s24206>; rel="up"
+Last-Modified: Fri, 03 Jun 2022 20:24:27 GMT
+ETag: "KRHbUA39d2VeEZLIzLGx2"
+Date: Fri, 03 Jun 2022 20:24:57 GMT
+Content-Type: application/json
+Content-Length: 57
+
+{"nazwa": "banan", "rodzaj":"owoc", "ilosc":20, "cena":2}

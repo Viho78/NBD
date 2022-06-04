@@ -1,0 +1,54 @@
+Zad1
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{"nazwa": "banan", "rodzaj":"owoc", "ilosc":20, "cena":2}' http://localhost:8098/buckets/s24206/keys/zad11 >> rozw1.txt
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{"nazwa": "jablko", "rodzaj":"owoc", "ilosc":13, "cena":3}' http://localhost:8098/buckets/s24206/keys/zad12 >> rozw1.txt
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{"nazwa": "agrest", "rodzaj":"owoc", "ilosc":24, "cena":1}' http://localhost:8098/buckets/s24206/keys/zad13 >> rozw1.txt
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{"nazwa": "marchew", "rodzaj":"warzywo", "ilosc":56, "cena":5}' http://localhost:8098/buckets/s24206/keys/zad14 >> rozw1.txt
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{"nazwa": "cebula", "rodzaj":"warzywo", "ilosc":66, "cena":8}' http://localhost:8098/buckets/s24206/keys/zad15 >> rozw1.txt
+
+Zad2
+
+curl -i http://localhost:8098/buckets/s24206/keys/zad11 >> rozw2.txt
+
+Zad3
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{"nazwa": "banan", "rodzaj":"owoc", "ilosc":20, "cena":2, "kolor":"zolty}' http://localhost:8098/buckets/s24206/keys/zad11 > rozw3.txt
+
+Zad4
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{"nazwa": "banan", "rodzaj":"owoc", "ilosc":20, "kolor":"zolty}' http://localhost:8098/buckets/s24206/keys/zad11 > rozw4.txt
+
+Zad5
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{"nazwa": "banan", "rodzaj":"owoc", "ilosc":4, "kolor":"zolty}' http://localhost:8098/buckets/s24206/keys/zad11 > rozw5.txt
+
+Zad6
+
+curl -i -XDELETE http://localhost:8098/buckets/s24206/keys/zad11 > rozw6.txt
+
+Zad7
+
+curl -i http://localhost:8098/buckets/s24206/keys/zad11 >> rozw7.txt
+
+Zad8
+
+curl -i -XPOST -H "Content-Type: application/json" -d '{"nazwa": "rabarbar"}' http://localhost:8098/buckets/s24206/keys > rozw8.txt
+
+Zad9
+
+curl -i http://localhost:8098/buckets/s24206/keys/QUj0aCoDiIqmv0o1W0w5vtJ2kZ3 >> rozw9.txt
+
+Zad10
+
+curl -i -XDELETE http://localhost:8098/buckets/s24206/keys/QUj0aCoDiIqmv0o1W0w5vtJ2kZ3 > rozw10.txt
+
+
+
+
+
+
+
