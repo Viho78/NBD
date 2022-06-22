@@ -1,0 +1,6 @@
+(base) juliuszstanczyk@MacBook-Pro-Juliusz ~ % python3 /Users/juliuszstanczyk/Desktop/NBDcw5/rozw11.py
+wrzucenie do bazy wypisanie i pobranie
+{'nazwa': 'marchewka', 'rodzaj': 'warzywo', 'ilosc': 555, 'cena': 8}
+zmodyfikacja pobranie wypisanie
+{'nazwa': 'marchewka', 'rodzaj': 'warzywo', 'ilosc': 100, 'cena': 4}
+(base) juliuszstanczyk@MacBook-Pro-Juliusz ~ % 
